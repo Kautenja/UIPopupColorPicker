@@ -18,8 +18,6 @@
 		09B97A101F1DDF5500A3A885 /* UIPopupColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B97A091F1DDF5500A3A885 /* UIPopupColorPicker.framework */; };
 		09B97A111F1DDF5500A3A885 /* UIPopupColorPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09B97A091F1DDF5500A3A885 /* UIPopupColorPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		09B97A191F1DDF7100A3A885 /* UIPopupColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B97A161F1DDF7100A3A885 /* UIPopupColorPicker.swift */; };
-		09B97A1A1F1DDF7100A3A885 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B97A171F1DDF7100A3A885 /* Colors.swift */; };
-		09B97A1B1F1DDF7100A3A885 /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B97A181F1DDF7100A3A885 /* ColorCell.swift */; };
 		09B97A1F1F1DE19C00A3A885 /* PopupDialog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B97A1E1F1DE18800A3A885 /* PopupDialog.framework */; };
 		09B97A201F1DE1BF00A3A885 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B97A1D1F1DE0DC00A3A885 /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -71,8 +69,6 @@
 		09B97A0B1F1DDF5500A3A885 /* UIPopupColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPopupColorPicker.h; sourceTree = "<group>"; };
 		09B97A0C1F1DDF5500A3A885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B97A161F1DDF7100A3A885 /* UIPopupColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIPopupColorPicker.swift; path = "../../../Documents/programming/ios-frameworks/Pods/BColorPicker/BColorPicker/Classes/UIPopupColorPicker.swift"; sourceTree = "<group>"; };
-		09B97A171F1DDF7100A3A885 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = "../../../Documents/programming/ios-frameworks/Pods/BColorPicker/BColorPicker/Classes/Colors.swift"; sourceTree = "<group>"; };
-		09B97A181F1DDF7100A3A885 /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorCell.swift; path = "../../../Documents/programming/ios-frameworks/Pods/BColorPicker/BColorPicker/Classes/ColorCell.swift"; sourceTree = "<group>"; };
 		09B97A1D1F1DE0DC00A3A885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09B97A1E1F1DE18800A3A885 /* PopupDialog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupDialog.framework; path = Carthage/Build/iOS/PopupDialog.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,8 +149,6 @@
 			children = (
 				09B97A161F1DDF7100A3A885 /* UIPopupColorPicker.swift */,
 				096A71F51F1DE71400262A89 /* UIPopupColorPicker.storyboard */,
-				09B97A181F1DDF7100A3A885 /* ColorCell.swift */,
-				09B97A171F1DDF7100A3A885 /* Colors.swift */,
 				09B97A0B1F1DDF5500A3A885 /* UIPopupColorPicker.h */,
 				09B97A0C1F1DDF5500A3A885 /* Info.plist */,
 			);
@@ -351,8 +345,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09B97A191F1DDF7100A3A885 /* UIPopupColorPicker.swift in Sources */,
-				09B97A1A1F1DDF7100A3A885 /* Colors.swift in Sources */,
-				09B97A1B1F1DDF7100A3A885 /* ColorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
