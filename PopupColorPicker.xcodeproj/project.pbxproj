@@ -495,7 +495,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YLBWSHF35Z;
 				INFOPLIST_FILE = PopupColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.PopupColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +511,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YLBWSHF35Z;
 				INFOPLIST_FILE = PopupColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.PopupColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
