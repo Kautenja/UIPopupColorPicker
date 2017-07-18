@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cNe-2l-eYf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Color Picker-->
+        <!--Popup Color Picker-->
         <scene sceneID="7S9-4l-5eq">
             <objects>
-                <viewController storyboardIdentifier="BColorPicker" id="cNe-2l-eYf" customClass="BColorPicker" customModule="BColorPicker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BColorPicker" id="cNe-2l-eYf" customClass="UIPopupColorPicker" customModule="UIPopupColorPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="agK-SE-yWc"/>
                         <viewControllerLayoutGuide type="bottom" id="Clm-U7-uwh"/>
@@ -32,7 +31,7 @@
                                     <constraint firstAttribute="height" constant="450" id="zWr-aW-Bhv"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ColorCell" id="jDm-tM-efD" customClass="ColorCell" customModule="BColorPicker" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ColorCell" id="jDm-tM-efD" customClass="ColorCell" customModule="UIPopupColorPicker" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jDm-tM-efD" id="gub-BI-LjI">
@@ -52,14 +51,18 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q67-qb-BMp">
                                         <rect key="frame" x="10" y="5" width="36" height="30"/>
-                                        <state key="normal" title="Clear"/>
+                                        <state key="normal" title="Clear">
+                                            <color key="titleColor" red="0.28809207679999999" green="0.59404689070000005" blue="0.9456029534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="clear" destination="cNe-2l-eYf" eventType="touchUpInside" id="PPt-vB-Pvr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppr-Sn-wzE">
                                         <rect key="frame" x="317" y="5" width="48" height="30"/>
-                                        <state key="normal" title="Cancel"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" red="0.28809207679999999" green="0.59404689070000005" blue="0.9456029534" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <connections>
                                             <action selector="cancel" destination="cNe-2l-eYf" eventType="touchUpInside" id="Sv9-vJ-dv9"/>
                                         </connections>
