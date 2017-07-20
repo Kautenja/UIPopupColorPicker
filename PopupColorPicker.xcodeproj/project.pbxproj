@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		091828971F1E0C7100800BED /* UIPopupColorPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091828951F1E0C6200800BED /* UIPopupColorPicker.storyboard */; };
 		091828981F1E0C7900800BED /* UIPopupColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091828961F1E0C6200800BED /* UIPopupColorPicker.swift */; };
+		09333FFA1F2105FB00373C22 /* paper_texture_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 098B62201F20FE6D0007E405 /* paper_texture_02.png */; };
+		098B62261F20FFCA0007E405 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B62251F20FFCA0007E405 /* MaterialCard.swift */; };
 		09B979D31F1DDEC200A3A885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B979D21F1DDEC200A3A885 /* AppDelegate.swift */; };
 		09B979D51F1DDEC200A3A885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B979D41F1DDEC200A3A885 /* ViewController.swift */; };
 		09B979D81F1DDEC200A3A885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B979D61F1DDEC200A3A885 /* Main.storyboard */; };
@@ -56,6 +58,8 @@
 /* Begin PBXFileReference section */
 		091828951F1E0C6200800BED /* UIPopupColorPicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIPopupColorPicker.storyboard; sourceTree = "<group>"; };
 		091828961F1E0C6200800BED /* UIPopupColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPopupColorPicker.swift; sourceTree = "<group>"; };
+		098B62201F20FE6D0007E405 /* paper_texture_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper_texture_02.png; sourceTree = "<group>"; };
+		098B62251F20FFCA0007E405 /* MaterialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
 		09B979CF1F1DDEC200A3A885 /* PopupColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B979D21F1DDEC200A3A885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B979D41F1DDEC200A3A885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 			children = (
 				091828951F1E0C6200800BED /* UIPopupColorPicker.storyboard */,
 				091828961F1E0C6200800BED /* UIPopupColorPicker.swift */,
+				098B62251F20FFCA0007E405 /* MaterialCard.swift */,
+				098B62201F20FE6D0007E405 /* paper_texture_02.png */,
 				09B97A0B1F1DDF5500A3A885 /* UIPopupColorPicker.h */,
 				09B97A0C1F1DDF5500A3A885 /* Info.plist */,
 			);
@@ -300,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09333FFA1F2105FB00373C22 /* paper_texture_02.png in Resources */,
 				091828971F1E0C7100800BED /* UIPopupColorPicker.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098B62261F20FFCA0007E405 /* MaterialCard.swift in Sources */,
 				091828981F1E0C7900800BED /* UIPopupColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

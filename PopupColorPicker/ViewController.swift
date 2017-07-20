@@ -12,15 +12,18 @@ import UIPopupColorPicker
 /// The main entry point for the application
 class ViewController: UIViewController {
     
+    /// the card to apply the color to
+    @IBOutlet weak var card: MaterialCard!
+    
     /// Respond to a color change event from the popup
     /// - parameters:
     ///  - color: the selected color
     func colorDidChange(color: UIColor?) {
         guard let newColor = color else {
-            view.backgroundColor = UIColor.white
+            card.backgroundColor = UIColor.white
             return
         }
-        view.backgroundColor = newColor
+        card.backgroundColor = newColor
     }
     
     /// respond to a press on the "select a color" button
@@ -33,8 +36,7 @@ class ViewController: UIViewController {
         let popup = UIPopupColorPicker.show(on: self) { color in
             self.colorDidChange(color: color)
         }
-        popup.tintColor = #colorLiteral(red: 0.1568514521, green: 0.680490051, blue: 0.9768045545, alpha: 1)
-        popup.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        popup.tintColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
         popup.buttonFont = UIFont(name: "HelveticaNeue", size: 18.0)!
         popup.colorList = [UIColor.gray, UIColor.blue, UIColor.yellow]
     }

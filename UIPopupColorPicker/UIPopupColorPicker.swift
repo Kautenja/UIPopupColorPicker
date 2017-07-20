@@ -96,23 +96,10 @@ public class UIPopupColorPicker: UIViewController {
             cancelButton.titleLabel?.font = newValue
         }
     }
-    
-    /// the header view that contains the buttons
-    @IBOutlet var header: UIView!
-    
+
     /// the table view that contains the color cells
     @IBOutlet var tableView: UITableView!
-    
-    /// the background color for the table and header
-    public var backgroundColor: UIColor? {
-        get {
-            return header.backgroundColor
-        }
-        set {
-            header.backgroundColor = newValue
-            tableView.backgroundColor = newValue
-        }
-    }
+
     
     
     // MARK: Action functions
