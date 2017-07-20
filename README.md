@@ -1,5 +1,10 @@
 # UIPopupColorPicker
 
+[![swift-badge][]][swift-link]
+
+[swift-badge]: https://img.shields.io/badge/swift-4.0-orange.svg
+[swift-link]: https://swift.org/
+
 ## Screenshots
 
 The standard theme
