@@ -9,14 +9,11 @@
 
 The standard theme
 
-![standard][]
+<img src="https://user-images.githubusercontent.com/2184469/28428261-78c0d20a-6d3e-11e7-8bbb-538066ae9696.PNG" width = 300>
 
 An example of custom theme utilizing tint color, background color, and fonts
 
-![themed][]
-
-[standard]: https://user-images.githubusercontent.com/2184469/28428261-78c0d20a-6d3e-11e7-8bbb-538066ae9696.PNG
-[themed]: https://user-images.githubusercontent.com/2184469/28428266-7b990cae-6d3e-11e7-98b2-dddc01dc55d1.PNG
+<img src="https://user-images.githubusercontent.com/2184469/28428266-7b990cae-6d3e-11e7-98b2-dddc01dc55d1.PNG" width = 300>
 
 ## Installation
 
