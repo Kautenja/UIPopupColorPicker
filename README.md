@@ -70,7 +70,7 @@ let _ = UIPopupColorPicker.show(on: self) { color in
 }
 ```
 
-see [ViewController](Example/PopupColorPicker/UIPopupColorPicker/ViewController.swift) for a production 
+see [ViewController](PopupColorPicker/ViewController.swift) for a production 
 example of how this might come together
 
 
