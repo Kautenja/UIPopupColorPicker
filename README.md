@@ -76,5 +76,5 @@ example of how this might come together
 
 ## License
 
-UIPopupColorPicker is available under the MIT license. See the LICENSE file for more 
+UIPopupColorPicker is available under the MIT license. See the [LICENSE](./LICENSE) file for more 
 info.
