@@ -21,8 +21,8 @@ An example of custom theme utilizing tint color, font, and a custom list of colo
 
 add the folowing to your Carfile:
 
-```
-github "kautenja/UIPopupColorPicker" "master"
+```ruby
+github "kautenja/UIPopupColorPicker" ~> 1.1
 ```
 
 ## Example
