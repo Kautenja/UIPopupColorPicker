@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     /// Respond to a color change event from the popup
     /// - parameters:
     ///  - color: the selected color
-    func colorDidChange(color: UIColor?) {
+    func colorDidChange(_ color: UIColor?) {
         guard let newColor = color else {
             card.backgroundColor = UIColor.white
             return
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     /// respond to a press on the "select a color" button
     @IBAction func selectAColorWithCustomTintAndBG() {
         let popup = UIPopupColorPicker.show(on: self) { color in
-            self.colorDidChange(color: color)
+            self.colorDidChange(color)
         }
         popup.tintColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
         popup.buttonFont = UIFont(name: "HelveticaNeue", size: 18.0)!

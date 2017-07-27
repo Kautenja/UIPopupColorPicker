@@ -10,12 +10,12 @@
 		091828971F1E0C7100800BED /* UIPopupColorPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091828951F1E0C6200800BED /* UIPopupColorPicker.storyboard */; };
 		091828981F1E0C7900800BED /* UIPopupColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091828961F1E0C6200800BED /* UIPopupColorPicker.swift */; };
 		09333FFA1F2105FB00373C22 /* paper_texture_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 098B62201F20FE6D0007E405 /* paper_texture_02.png */; };
+		0957D6E81F2A0C4A007DC80F /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0957D6E71F2A0C4A007DC80F /* Launchscreen.storyboard */; };
+		097377B71F2A0C0D00B17140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097377B61F2A0C0D00B17140 /* Main.storyboard */; };
 		098B62261F20FFCA0007E405 /* MaterialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098B62251F20FFCA0007E405 /* MaterialCard.swift */; };
 		09B979D31F1DDEC200A3A885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B979D21F1DDEC200A3A885 /* AppDelegate.swift */; };
 		09B979D51F1DDEC200A3A885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B979D41F1DDEC200A3A885 /* ViewController.swift */; };
-		09B979D81F1DDEC200A3A885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B979D61F1DDEC200A3A885 /* Main.storyboard */; };
 		09B979DA1F1DDEC200A3A885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B979D91F1DDEC200A3A885 /* Assets.xcassets */; };
-		09B979DD1F1DDEC200A3A885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B979DB1F1DDEC200A3A885 /* LaunchScreen.storyboard */; };
 		09B979E81F1DDEC200A3A885 /* PopupColorPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B979E71F1DDEC200A3A885 /* PopupColorPickerUITests.swift */; };
 		09B97A0D1F1DDF5500A3A885 /* UIPopupColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B97A0B1F1DDF5500A3A885 /* UIPopupColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09B97A101F1DDF5500A3A885 /* UIPopupColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B97A091F1DDF5500A3A885 /* UIPopupColorPicker.framework */; };
@@ -58,14 +58,14 @@
 /* Begin PBXFileReference section */
 		091828951F1E0C6200800BED /* UIPopupColorPicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIPopupColorPicker.storyboard; sourceTree = "<group>"; };
 		091828961F1E0C6200800BED /* UIPopupColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPopupColorPicker.swift; sourceTree = "<group>"; };
+		0957D6E71F2A0C4A007DC80F /* Launchscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
+		097377B61F2A0C0D00B17140 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		098B62201F20FE6D0007E405 /* paper_texture_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper_texture_02.png; sourceTree = "<group>"; };
 		098B62251F20FFCA0007E405 /* MaterialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCard.swift; sourceTree = "<group>"; };
 		09B979CF1F1DDEC200A3A885 /* PopupColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopupColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B979D21F1DDEC200A3A885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B979D41F1DDEC200A3A885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09B979D71F1DDEC200A3A885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09B979D91F1DDEC200A3A885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		09B979DC1F1DDEC200A3A885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B979DE1F1DDEC200A3A885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B979E31F1DDEC200A3A885 /* PopupColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B979E71F1DDEC200A3A885 /* PopupColorPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupColorPickerUITests.swift; sourceTree = "<group>"; };
@@ -131,9 +131,9 @@
 			children = (
 				09B979D21F1DDEC200A3A885 /* AppDelegate.swift */,
 				09B979D41F1DDEC200A3A885 /* ViewController.swift */,
-				09B979D61F1DDEC200A3A885 /* Main.storyboard */,
+				097377B61F2A0C0D00B17140 /* Main.storyboard */,
 				09B979D91F1DDEC200A3A885 /* Assets.xcassets */,
-				09B979DB1F1DDEC200A3A885 /* LaunchScreen.storyboard */,
+				0957D6E71F2A0C4A007DC80F /* Launchscreen.storyboard */,
 				09B979DE1F1DDEC200A3A885 /* Info.plist */,
 			);
 			path = PopupColorPicker;
@@ -253,14 +253,16 @@
 				TargetAttributes = {
 					09B979CE1F1DDEC200A3A885 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0830;
 					};
 					09B979E21F1DDEC200A3A885 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0830;
 						TestTargetID = 09B979CE1F1DDEC200A3A885;
 					};
 					09B97A081F1DDF5500A3A885 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -289,9 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B979DD1F1DDEC200A3A885 /* LaunchScreen.storyboard in Resources */,
+				0957D6E81F2A0C4A007DC80F /* Launchscreen.storyboard in Resources */,
+				097377B71F2A0C0D00B17140 /* Main.storyboard in Resources */,
 				09B979DA1F1DDEC200A3A885 /* Assets.xcassets in Resources */,
-				09B979D81F1DDEC200A3A885 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,25 +387,6 @@
 			targetProxy = 09B97A0E1F1DDF5500A3A885 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		09B979D61F1DDEC200A3A885 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09B979D71F1DDEC200A3A885 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		09B979DB1F1DDEC200A3A885 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09B979DC1F1DDEC200A3A885 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		09B979EA1F1DDEC200A3A885 /* Debug */ = {
@@ -524,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.PopupColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -540,7 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.PopupColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -554,7 +537,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.PopupColorPickerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PopupColorPicker;
 			};
@@ -569,7 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.PopupColorPickerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PopupColorPicker;
 			};
@@ -597,7 +580,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -625,7 +608,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cksoftware.popupcolorpicker.UIPopupColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

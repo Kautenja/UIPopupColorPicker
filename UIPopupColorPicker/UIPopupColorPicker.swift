@@ -47,7 +47,7 @@ struct FlatColors {
 }
 
 /// A class to present popups for selecting a color
-public class UIPopupColorPicker: UIViewController {
+open class UIPopupColorPicker: UIViewController {
     
     /// the popup that this picker is contained in
     var popup: PopupDialog!
@@ -56,7 +56,7 @@ public class UIPopupColorPicker: UIViewController {
     var colors: [UIColor] = FlatColors.all
     
     /// the list of colors to display
-    public var colorList: [UIColor] {
+    open var colorList: [UIColor] {
         get {
             return colors
         }
@@ -76,7 +76,7 @@ public class UIPopupColorPicker: UIViewController {
     @IBOutlet var cancelButton: UIButton!
     
     /// the tint color for the buttons
-    public var tintColor: UIColor {
+    open var tintColor: UIColor {
         get {
             return clearButton.tintColor
         }
@@ -87,7 +87,7 @@ public class UIPopupColorPicker: UIViewController {
     }
     
     /// the font for the buttons
-    public var buttonFont: UIFont? {
+    open var buttonFont: UIFont? {
         get {
             return clearButton.titleLabel?.font
         }
@@ -125,7 +125,7 @@ public class UIPopupColorPicker: UIViewController {
     /// - parameters:
     ///   - on: the view controller to present on top of
     ///   - handledBy: the function to handle the color selection
-    public class func show(on viewController: UIViewController,
+    open class func show(on viewController: UIViewController,
                          block handler: @escaping ((UIColor?)->Void)) -> UIPopupColorPicker {
         // load the picker from storyboard
         let name = String(describing: classForCoder())
