@@ -230,7 +230,6 @@
 				09B97A051F1DDF5500A3A885 /* Frameworks */,
 				09B97A061F1DDF5500A3A885 /* Headers */,
 				09B97A071F1DDF5500A3A885 /* Resources */,
-				09B97A271F1DE39800A3A885 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -317,20 +316,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		091828991F1E0D9100800BED /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/PopupDialog.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		09B97A271F1DE39800A3A885 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
