@@ -75,6 +75,11 @@
 		09B97A0C1F1DDF5500A3A885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B97A1D1F1DE0DC00A3A885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09B97A1E1F1DE18800A3A885 /* PopupDialog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopupDialog.framework; path = Carthage/Build/iOS/PopupDialog.framework; sourceTree = "<group>"; };
+		09F401B31F2C2B2700B9C814 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		09F401B41F2C2B2D00B9C814 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09F401B51F2C2B3300B9C814 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		09F401B61F2C2B3A00B9C814 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		09F401B71F2C2B3F00B9C814 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,11 @@
 		09B979C61F1DDEC200A3A885 = {
 			isa = PBXGroup;
 			children = (
+				09F401B31F2C2B2700B9C814 /* .gitignore */,
+				09F401B41F2C2B2D00B9C814 /* README.md */,
+				09F401B51F2C2B3300B9C814 /* LICENSE */,
+				09F401B61F2C2B3A00B9C814 /* Makefile */,
+				09F401B71F2C2B3F00B9C814 /* Cartfile */,
 				09B979D11F1DDEC200A3A885 /* PopupColorPicker */,
 				09B979E61F1DDEC200A3A885 /* PopupColorPickerUITests */,
 				09B97A0A1F1DDF5500A3A885 /* UIPopupColorPicker */,
@@ -230,7 +240,6 @@
 				09B97A051F1DDF5500A3A885 /* Frameworks */,
 				09B97A061F1DDF5500A3A885 /* Headers */,
 				09B97A071F1DDF5500A3A885 /* Resources */,
-				09B97A271F1DE39800A3A885 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -315,20 +324,6 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		091828991F1E0D9100800BED /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/PopupDialog.framework",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		09B97A271F1DE39800A3A885 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

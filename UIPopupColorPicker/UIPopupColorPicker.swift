@@ -72,6 +72,19 @@ public class UIPopupColorPicker: UIViewController {
     /// the clear button to select no color
     @IBOutlet var clearButton: UIButton!
     
+    /// the header label
+    @IBOutlet weak var header: UILabel!
+    
+    /// The text to display betwen the clear and cancel buttons
+    public var headerText: String? {
+        get {
+            return header.text
+        }
+        set {
+            header.text = newValue
+        }
+    }
+    
     /// the cancel button to cancel selection
     @IBOutlet var cancelButton: UIButton!
     
@@ -100,8 +113,6 @@ public class UIPopupColorPicker: UIViewController {
     /// the table view that contains the color cells
     @IBOutlet var tableView: UITableView!
 
-    
-    
     // MARK: Action functions
     
     /// Cancel the selection and dismiss the popup

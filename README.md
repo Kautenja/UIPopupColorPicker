@@ -33,7 +33,9 @@ github "kautenja/UIPopupColorPicker" ~> 1.1
 To run the example project, clone the repo, and it in Xcode on devices of your choosing, there is an example UI
 setup to access the picker.
 
-### Code
+### Code Usage
+
+#### Creation
 
 UIPopupColorPicker is accessed through the single static function:
 
@@ -44,6 +46,8 @@ let _ = UIPopupColorPicker.show(on: self, block: nil)
 This function returns an instance of BColorPicker in case you might want to
 manipulate some of the controller manually.
 
+#### Customization
+
 ```swift
 let popup = UIPopupColorPicker.show(on: self, block: nil)
 popup.tintColor = #colorLiteral(red: 0.1568514521, 
@@ -53,6 +57,8 @@ popup.tintColor = #colorLiteral(red: 0.1568514521,
 popup.buttonFont = UIFont(name: "HelveticaNeue", size: 18.0)!
 popup.colorList = [UIColor.gray, UIColor.blue, UIColor.yellow]
 ```
+
+#### Callback
 
 One way of handling color change is to implement a handler function
 
@@ -73,9 +79,13 @@ let _ = UIPopupColorPicker.show(on: self) { color in
 }
 ```
 
+### Code Samples
+
 see [ViewController](PopupColorPicker/ViewController.swift) for a working example of the popup.
 
 ## License
+
+**TL;DR** do what you want with it.
 
 UIPopupColorPicker is available under the MIT license. See the [LICENSE](./LICENSE) file for more 
 info.

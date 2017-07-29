@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         let popup = UIPopupColorPicker.show(on: self) { color in
             self.colorDidChange(color: color)
         }
+        popup.headerText = "Custom Color List!"
         popup.tintColor = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
         popup.buttonFont = UIFont(name: "HelveticaNeue", size: 18.0)!
         popup.colorList = [UIColor.gray, UIColor.blue, UIColor.yellow]

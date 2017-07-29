@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cNe-2l-eYf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cNe-2l-eYf">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
         <array key="HelveticaNeueLights.ttc">
             <string>HelveticaNeue-Light</string>
         </array>
@@ -52,7 +55,7 @@
                                     <outlet property="delegate" destination="cNe-2l-eYf" id="G2b-VX-5lU"/>
                                 </connections>
                             </tableView>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fDN-C1-6DH" customClass="MaterialCard" customModule="UIPopupColorPicker" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDN-C1-6DH" customClass="MaterialCard" customModule="UIPopupColorPicker" customModuleProvider="target">
                                 <rect key="frame" x="10" y="10" width="70" height="28"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q67-qb-BMp">
@@ -75,7 +78,7 @@
                                     <constraint firstAttribute="width" constant="70" id="fib-XA-YQ6"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QK5-vP-l7H" customClass="MaterialCard" customModule="UIPopupColorPicker" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QK5-vP-l7H" customClass="MaterialCard" customModule="UIPopupColorPicker" customModuleProvider="target">
                                 <rect key="frame" x="295" y="10" width="70" height="28"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppr-Sn-wzE">
@@ -97,12 +100,19 @@
                                     <constraint firstAttribute="bottom" secondItem="ppr-Sn-wzE" secondAttribute="bottom" id="fMc-lg-qao"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Ie8-Sr-SNd">
+                                <rect key="frame" x="85" y="24" width="205" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="QK5-vP-l7H" firstAttribute="width" secondItem="fDN-C1-6DH" secondAttribute="width" id="0yE-0R-3xM"/>
                             <constraint firstItem="nIa-bD-Prf" firstAttribute="top" secondItem="kAp-xA-TCf" secondAttribute="top" id="2Xe-g6-5Tr"/>
                             <constraint firstAttribute="trailing" secondItem="QK5-vP-l7H" secondAttribute="trailing" constant="10" id="Da4-e9-joo"/>
+                            <constraint firstItem="Ie8-Sr-SNd" firstAttribute="leading" secondItem="fDN-C1-6DH" secondAttribute="trailing" constant="5" id="Edf-HZ-KEd"/>
                             <constraint firstItem="Clm-U7-uwh" firstAttribute="top" secondItem="nIa-bD-Prf" secondAttribute="bottom" id="Mpn-ae-guF"/>
                             <constraint firstItem="nIa-bD-Prf" firstAttribute="leading" secondItem="kAp-xA-TCf" secondAttribute="leading" id="Vgr-fe-c8K"/>
                             <constraint firstAttribute="trailing" secondItem="kEq-yh-ZLF" secondAttribute="trailing" id="Vjc-GY-sJq"/>
@@ -112,6 +122,8 @@
                             <constraint firstItem="QK5-vP-l7H" firstAttribute="top" secondItem="agK-SE-yWc" secondAttribute="bottom" constant="10" id="fnW-5m-Xji"/>
                             <constraint firstItem="Clm-U7-uwh" firstAttribute="top" secondItem="kEq-yh-ZLF" secondAttribute="bottom" id="hh6-Fq-4pV"/>
                             <constraint firstItem="fDN-C1-6DH" firstAttribute="leading" secondItem="kAp-xA-TCf" secondAttribute="leading" constant="10" id="idx-xE-kbX"/>
+                            <constraint firstItem="QK5-vP-l7H" firstAttribute="leading" secondItem="Ie8-Sr-SNd" secondAttribute="trailing" constant="5" id="rrE-h8-lkS"/>
+                            <constraint firstItem="Ie8-Sr-SNd" firstAttribute="centerY" secondItem="fDN-C1-6DH" secondAttribute="centerY" id="xjL-7q-LDm"/>
                             <constraint firstItem="kEq-yh-ZLF" firstAttribute="top" secondItem="agK-SE-yWc" secondAttribute="bottom" id="y3Y-KL-u8C"/>
                         </constraints>
                     </view>
@@ -123,6 +135,7 @@
                     <connections>
                         <outlet property="cancelButton" destination="ppr-Sn-wzE" id="Kr0-tT-4I5"/>
                         <outlet property="clearButton" destination="q67-qb-BMp" id="T05-JI-Mgo"/>
+                        <outlet property="header" destination="Ie8-Sr-SNd" id="qPm-xB-GbF"/>
                         <outlet property="tableView" destination="kEq-yh-ZLF" id="teT-zB-zNQ"/>
                     </connections>
                 </viewController>
